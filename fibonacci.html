@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1 id="header">Enter Fibonacci Series</h1>
+        <input type="int" id="inp"/>
+
+        <button onclick="fibonacci_sequence()">Click</button>
+
+        <script type="application/javascript">
+            function fibonacci_sequence(){ 
+                let x = 0, y = 1, z;
+                var number = document.getElementById("inp").value
+                for (let c = 1; c <= number; c++) {
+                    z = x + y;
+                    x = y;
+                    y = z;
+                }
+                document.write(x)
+            }
+          
+
+        </script>
+    </body>
+</html>
