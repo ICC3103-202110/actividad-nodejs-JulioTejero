@@ -1,6 +1,6 @@
 
 var readlineSync = require('readline-sync');
-var input = readlineSync.question('Ingresa un numero');
+var input = readlineSync.question('Ingresa un numero: ');
 
 function fibonacci_sequence(n){ 
     let x = 0, y = 1, z
